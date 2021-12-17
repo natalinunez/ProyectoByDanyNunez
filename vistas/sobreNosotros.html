@@ -42,57 +42,56 @@
   <body>
     <!-- Ini barra de navegacion -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <figure class="figure_1">
-            <img
+      <div class="container-fluid claseBorderVerde">
+        <a class="navbar-brand claseBorderRojo flex-column justify-content-start" href="#">
+          <img
             src="../images/logoByDany.png"
-            alt="logo app"            
-            class="header__logo"             
-            />
-          </figure>          
+            alt="logo app"
+            class="header__logo"
+          />
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+
+        <button class="navbar-toggler estilo__Hambur claseBorderRojo"
+          type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon estilo__Hambur claseBorderRojo"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item ">
-              <a class="nav-link active  mx-5 navEstilo" aria-current="page" href="../index.html">Inicio</a>
+        
+        <div class="collapse navbar-collapse claseBorderAzul justify-content-center"
+          id="navbarNav">
+          <ul class="navbar-nav align-items-center claseBorderRosado">
+            <li class="nav-item">
+              <a class="nav-link active nav__estilo mx-5" aria-current="page" href="../index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  navEstilo mx-5" href="../vistas/aretes.html">Aretes</a>
+              <a class="nav-link nav__estilo mx-5" href="../vistas/aretes.html">Aretes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  navEstilo mx-5" href="../vistas/collares.html">Collares</a>
+              <a class="nav-link nav__estilo mx-5" href="../vistas/collares.html">Collares</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link navEstilo  mx-5" href="../vistas/pulseras.html">Pulseras</a>
+              <a class="nav-link nav__estilo mx-5" href="../vistas/pulseras.html">Pulseras</a>
             </li>
           </ul>
         </div>
-        <a class="navbar-brand" href="#">
-          <figure class="figure_1">
-            <img
-              src="../images/shopping-bag.svg"
-              alt="logo compras"
-              class="header__compras"
-              data-aos="slide-down"
-            />
-          </figure>         
-        </a>        
 
+        <a class="navbar-brand claseBorderRojo" href="#">
+          <img src="../images/shopping-bag.svg"
+            alt="logo compras" class="header__compras"/>
+        </a>
       </div>
-    </nav>    
-  <!-- Fin barra de navegacion -->        
-<!-- 
-    <div class="containerWe">
-      <section class="sectionWe">
-        <figure class="sectionWe__img">
-          <img src="../images/sliderModeloCollar_1850w_800h.jpg" alt="" />
-        </figure>
+    </nav>
+    <!-- Fin barra de navegacion -->
 
-        <div>
+    <!-- Ini parte central -->
+    <div class="container my-5 " >
+      <div class="row">
+        <div class="col-md-6 mt-2">
+          <img class="img-fluid sectionWe__img"
+            src="../images/sliderModeloCollar_1850w_800h.jpg" alt=""/>
+        </div>
+        <div class="col-md-6 mt-4 d-flex flex-column justify-content-center">
           <h2 class="sectionWe__Title">Quiénes Somos</h2>
           <h2 class="sectionWe__Title">By Dany</h2>
           <p class="sectionWe__description">
@@ -101,86 +100,75 @@
             más mujeres.
           </p>
         </div>
-      </section>      
-    </div> -->
-
-    <!-- Ini categoria de Productos -->
-    <div class="container" style="margin-top:30px;">
-      <div class="row">
-        <div class="col-md-6 mt-2 ">          
-          <img class="img-fluid" src="../images/sliderModeloCollar_1850w_800h.jpg" alt="">     
-        </div>  
-        <div class="col-md-6 mt-4 d-flex flex-column justify-content-center ">          
-          <!-- <div class="card cateEfecto" style="width: 18rem;">
-            <img class="img-fluid" src="./images/aretes_320w_400h.jpg" alt="">            
-            <div class="card-body">
-              <a href="./vistas/aretes.html" class="card-link">
-                <h2 class="text-center mt-0 mb-0 cateEstilo  ">Aretes</h2>
-              </a>                            
-            </div>
-          </div>   
-              -->              
-                <h2 class="sectionWe__Title">Quiénes Somos</h2>
-                <h2 class="sectionWe__Title">By Dany</h2>
-                <p class="sectionWe__description">
-                  Somos una marca peruana, trabajamos con mucho cariño, siempre para
-                  darte lo mejor, y seguir creando oportunidades de crecimiento para
-                  más mujeres.
-                </p>                         
-        </div>              
-      </div>                      
+      </div>
     </div>
-  <!-- Fin categoria de Productos -->       
+    <!-- Fin parte central -->
 
-<!-- Ini footer -->
-<div class="container-fluid">
-  <div class="row mt-5">
-      <div class="col-md-6 ">
-        <div class="justify-content-center" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <p>
-                <a class="nav-link estiFooterTitulo mx-4">La Empresa</a>
-              </p>              
-            </li>
-            <li class="nav-item">
-              <a class="nav-link estiFooterTituloAncla  mx-4" href="../vistas/sobreNosotros.html">Sobre Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link estiFooterTituloAncla  mx-4" href="../vistas/contactanos.html">Contactanos</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-md-6  d-flex flex-column  justify-content-center align-items-end ">
-        <div class="row  me-4 ">      
-          <h2 class="estiFooterTitulo">¡Síguenos!</h2>    
-        </div>
-        <div class="row  me-4 ">          
-          <div class="col-md-6 mt-1  ">            
-            <a href="https://www.facebook.com/bydanyperu" target="_blank" class=" ">
-              <i class="fab fa-facebook fa-2x estiFooterIcon"></i>
-            </a>            
-          </div>
-          <div class="col-md-6 mt-1  ">            
-            <a href="https://www.instagram.com/bydanyperu/?hl=es-la" target="_blank" class=" ">
-              <i class="fab fa-instagram fa-2x estiFooterIcon"></i>
-            </a>            
+    <!-- Ini footer -->
+    <div class="container-fluid mt-2">
+      <div class="row">
+        <div class="col-md-6 my-2">
+          <div class="">
+            <ul class="navbar-nav align-items-md-start">
+              <li class="nav-item text-center">
+                <p>
+                  <a class="nav-link estifooter__titulo">La Empresa</a>
+                </p>
+              </li>
+              <li class="nav-item text-center">
+                <a class="nav-link estifooter__tituloancla"
+                    href="./vistas/sobreNosotros.html">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item text-center">
+                <a class="nav-link estifooter__tituloancla"
+                  href="./vistas/contactanos.html">Contactanos</a>
+              </li>
+            </ul>
           </div>
         </div>
+
+        <div
+          class="col-md-6 d-flex flex-column justify-content-center align-items-md-end">
+          <div class="row">
+            <!-- centro sigueme y los iconos en vertical -->
+            <div class="col-md-12 d-flex flex-column align-items-center">
+              <div class="row">
+                <h2 class="estifooter__titulo">¡Síguenos!</h2>
+              </div>
+              <div class="row">
+                <div class="col-md-6 d-flex justify-content-center mb-2">
+                  <a href="https://www.facebook.com/bydanyperu" target="_blank" class="">
+                    <i class="fab fa-facebook fa-3x estifooter__icon"></i>
+                  </a>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                  <a href="https://www.instagram.com/bydanyperu/?hl=es-la" target="_blank" class="">
+                    <i class="fab fa-instagram fa-3x estifooter__icon"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
-  </div>
-</div>
-<div class="container-fluid">
-  <div class="row mt-1">
-      <div class="col-md-12 d-flex justify-content-center ">
-        <small class="footer__copyrigth">ByDany 2021 © Todos los derechos reservados </small>
+    </div>
+    <div class="container-fluid mt-3">
+      <div class="row mt-1">
+        <div class="col-md-12 d-flex justify-content-center">
+          <small class="footer__copyrigth"
+            >ByDany 2021 © Todos los derechos reservados
+          </small>
+        </div>
       </div>
-  </div>
-</div>        
-<!-- Fin footer -->
+    </div>
+    <!-- Fin footer -->
+
     <!--Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
